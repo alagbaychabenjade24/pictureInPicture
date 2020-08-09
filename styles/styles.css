@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(37, 37, 37);
+}
+
+#button {
+    font-family: Barlow, sans-serif;
+    text-shadow: 1px 1px grey;
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    color: whitesmoke;
+    background-color: rgb(201, 39, 17);
+    padding: 10px 15px;
+    cursor: pointer;
+    outline: none;
+    transition: 0.4s ease-in-out;
+}
+
+#button:hover {
+    background-color: red;
+    letter-spacing: 3.5px;
+    font-size: 19px;
+    padding: 13px 18px;
+    box-shadow: 5px 5px 8px #111;
+}
+
+#button:focus {
+    background-color: red;
+    letter-spacing: 3.5px;
+    font-size: 19px;
+    padding: 13px 18px;
+    box-shadow: 5px 5px 8px #111;
+}
